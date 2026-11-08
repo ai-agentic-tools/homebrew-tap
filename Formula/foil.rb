@@ -1,18 +1,18 @@
 class Foil < Formula
-  desc "Local sandbox for AI coding agents: instant copy-on-write branches of your repo"
+  desc "Guardrails for AI coding agents: hidden secrets, network allowlist, audit log"
   homepage "https://ai-agentic-tools.github.io/Foil/"
-  version "0.4.0"
+  version "0.5.0"
   license "Apache-2.0"
 
   on_macos do
-    url "https://github.com/ai-agentic-tools/Foil/releases/download/v0.4.0/foil-macos-universal"
-    sha256 "30d36a29e36db67ce60a2102419f378329368ebf51baddd7233b596174fdf94f"
+    url "https://github.com/ai-agentic-tools/Foil/releases/download/v0.5.0/foil-macos-universal"
+    sha256 "003c3a86371ffc28e2c0c44ac428621e272b9f13a37e57b134a19897130489ad"
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/ai-agentic-tools/Foil/releases/download/v0.4.0/foil-x86_64-linux"
-      sha256 "e845916396b3c9f47e021faff2e3216a98834dffcffd00507797b3aea67ec552"
+      url "https://github.com/ai-agentic-tools/Foil/releases/download/v0.5.0/foil-x86_64-linux"
+      sha256 "4404e0acc69acd0f6d999fcb9611420ae3e598ec8df0359a02b7847fa7a7531d"
     end
   end
 
