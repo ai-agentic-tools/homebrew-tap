@@ -1,18 +1,18 @@
 class Foil < Formula
   desc "Guardrails for AI coding agents: hidden secrets, network allowlist, audit log"
   homepage "https://ai-agentic-tools.github.io/Foil/"
-  version "0.5.0"
+  version "0.5.1"
   license "Apache-2.0"
 
   on_macos do
-    url "https://github.com/ai-agentic-tools/Foil/releases/download/v0.5.0/foil-macos-universal"
-    sha256 "003c3a86371ffc28e2c0c44ac428621e272b9f13a37e57b134a19897130489ad"
+    url "https://github.com/ai-agentic-tools/Foil/releases/download/v0.5.1/foil-macos-universal"
+    sha256 "9dfdb7301cd1e58ff5d7d1a2345e653600d1e37f7b4aa212c288d865de6f000e"
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/ai-agentic-tools/Foil/releases/download/v0.5.0/foil-x86_64-linux"
-      sha256 "4404e0acc69acd0f6d999fcb9611420ae3e598ec8df0359a02b7847fa7a7531d"
+      url "https://github.com/ai-agentic-tools/Foil/releases/download/v0.5.1/foil-x86_64-linux"
+      sha256 "b7ad1953ef12c793bd040ae74e33645ef25015f369e1325992440553836d28b6"
     end
   end
 
